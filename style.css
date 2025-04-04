@@ -154,10 +154,11 @@ label:focus {
   color: white;
 }
 
-#backlight {
-  /* background-color: #000000; */
+/* #backlight {
+  background-color: #000000;
   color: white;
-}
+  background-color: #64727d;
+} */
 
 #network {
   /* background-color: #000000; */
@@ -200,9 +201,9 @@ label:focus {
   background-color: #eb4d4b;
 }
 
-#tray {
-  background-color: #2980b9;
-}
+/* #tray {
+  background-color: #2980b9; 
+} */
 
 #idle_inhibitor {
   background-color: #2d3436;

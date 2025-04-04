@@ -6,15 +6,15 @@
   // "modules-center": ["hyprland/workspaces"],
   // "modules-right": ["tray", "network", "pulseaudio", "battery", "clock"],
   "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
-  "modules-center": ["hyprland/window"],
+  "modules-center": ["clock"],
   "modules-right": [
+    "tray",
     "pulseaudio",
     "network",
     "cpu",
     "memory",
-    "battery",
-    "clock",
-    "tray"
+    "battery"
+    // "clock",
   ],
 
   // Modules configuration
