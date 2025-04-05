@@ -15,7 +15,7 @@ window#waybar {
 }
 
 .modules-left,
-.modules-center,
+/* .modules-center, */
 .modules-right {
   background: rgba(0, 0, 8, 0.7);
   margin: 5px 10px 0 10px;
