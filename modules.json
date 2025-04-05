@@ -25,8 +25,6 @@
   },
   "pulseaudio": {
     "format": "{format_source}  {icon}   {volume}%",
-    "format-bluetooth": "{icon} {volume}%  {format_source}",
-    "format-bluetooth-muted": " {icon} {format_source}",
     "format-muted": "{format_source}  ",
     "format-source": "",
     "format-source-muted": "",
@@ -90,11 +88,6 @@
     "format-alt": "{:%Y-%m-%d}"
   },
   "tray": {
-    // "icon-size": 21,
     "spacing": 10
-    // "icons": {
-    //   "blueman": "bluetooth",
-    //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
-    // }
   }
 }

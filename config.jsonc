@@ -12,9 +12,9 @@
     "tray",
     // "idle_inhibitor",
     "pulseaudio",
-    "network",
-    "cpu",
-    "memory",
+    // "network",
+    // "cpu",`
+    // "memory",
     // "temperature",
     // "hyprland/language",
     "battery",
