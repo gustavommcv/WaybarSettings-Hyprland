@@ -39,14 +39,6 @@
     },
     "on-click": "pavucontrol"
   },
-  "network": {
-    "format-wifi": "   ({signalStrength}%)",
-    "format-ethernet": "{ipaddr}/{cidr} ",
-    "tooltip-format": "{ifname} via {gwaddr} ",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "Disconnected ⚠",
-    "on-click": "sh ~/scripts/rofi-wifi-menu/rofi-wifi-menu.sh"
-  },
   "cpu": {
     "format": "  {usage}%",
     "tooltip": true
@@ -54,18 +46,6 @@
   "memory": {
     "format": "  {}%",
     "tooltip": true
-  },
-  "temperature": {
-    "interval": 10,
-    "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon4/temp1_input",
-    "critical-threshold": 100,
-    "format-critical": " {temperatureC}",
-    "format": " {temperatureC}°C"
-  },
-  "hyprland/language": {
-    "format": "  {}",
-    "format-en": "EN",
-    "format-ru": "RU"
   },
   "battery": {
     "states": {
@@ -75,12 +55,8 @@
     "format": "{icon}  {capacity}%",
     "format-full": "{icon}  {capacity}%",
     "format-charging": "  {capacity}%",
-    "format-plugged": "  {capacity}%",
-    "format-alt": "{time}  {icon}",
+    "format-plugged": "  {capacity}%", 
     "format-icons": ["", "", "", "", ""]
-  },
-  "battery#bat2": {
-    "bat": "BAT2"
   },
   "clock": {
     "format": "{:%H:%M | %e %B} ",
@@ -88,6 +64,6 @@
     "format-alt": "{:%Y-%m-%d}"
   },
   "tray": {
-    "spacing": 10
+    "spacing": 18
   }
 }
