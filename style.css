@@ -93,6 +93,7 @@ window#waybar {
   padding: 0 10px;
   font-size: 25px;
   transition: color 0.5s;
+  color: rgba(33, 204, 255, 0.93);
 }
 #custom-arch:hover {
   color: #1793d1;
