@@ -39,6 +39,10 @@
     },
     "on-click": "pavucontrol"
   },
+  "backlight": {
+	"format": "{icon} {percent}%", 
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+  },
   "battery": {
     "states": {
       "warning": 30,
