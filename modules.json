@@ -16,6 +16,13 @@
       "default": ""
     }
   },
+  "cpu": {
+    "format": "  {usage}%",
+    "tooltip": false
+  },
+  "memory": {
+    "format": "  {}%"
+  },
   "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
@@ -40,8 +47,8 @@
     "on-click": "pavucontrol"
   },
   "backlight": {
-	"format": "{icon} {percent}%", 
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    "format": "{icon} {percent}%",
+    "format-icons": ["", "", "", "", "", "", "", "", ""]
   },
   "battery": {
     "states": {
@@ -51,7 +58,7 @@
     "format": "{icon}  {capacity}%",
     "format-full": "{icon}  {capacity}%",
     "format-charging": "  {capacity}%",
-    "format-plugged": "  {capacity}%", 
+    "format-plugged": "  {capacity}%",
     "format-icons": ["", "", "", "", ""]
   },
   "clock": {
