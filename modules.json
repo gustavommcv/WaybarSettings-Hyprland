@@ -62,9 +62,9 @@
       "critical": 15
     },
     "format": "{capacity}%",
-    "format-full": "{icon} {capacity}%",
-    "format-charging": "󰂄 {capacity}%",
-    "format-plugged": "󰚥 {capacity}%",
+    "format-full": "full",
+    "format-charging": "charging {capacity}%",
+    "format-plugged": "plugged {capacity}%",
     "format-icons": ["󰁺", "󰁼", "󰁾", "󰂀", "󰁹"]
   },
 
