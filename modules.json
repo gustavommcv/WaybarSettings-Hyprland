@@ -1,8 +1,8 @@
 {
-  "custom/arch": {
-    "format": "󰣇",
+  "custom/nixos": {
+    "format": "",
     "tooltip": true,
-    "tooltip-format": "I use arch btw"
+    "tooltip-format": "I use nixos btw"
   },
 
   "hyprland/workspaces": {

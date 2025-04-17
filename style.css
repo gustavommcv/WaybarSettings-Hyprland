@@ -87,10 +87,10 @@ window#waybar {
   box-shadow: none;
 }
 
-#custom-arch {
+#custom-nixos {
   margin-left: 5px;
   padding: 0 10px;
-  font-size: 25px;
+  font-size: 20px;
   transition: color 0.5s;
   color: rgba(33, 204, 255, 0.93);
 }
